@@ -1,0 +1,25 @@
+{
+  "name": "project-app",
+  "version": "1.0.0",
+  "description": "Nikita Podcast App",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Nikita <lavrinovich_nikita@mail.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
